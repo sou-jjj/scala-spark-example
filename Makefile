@@ -41,5 +41,3 @@ spark_submit/MarketingCampaignJob:
 	--conf spark.driver.extraJavaOptions=$(JDWP) \
 	$(TARGET)/scala-spark-example.jar
 
-test_echo:
-	echo $(SPARK_MASTER)
